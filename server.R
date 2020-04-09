@@ -3,7 +3,7 @@ library(ggplot2)
 library(ggiraph)
 
 data <- readRDS("data.rds")
-
+                       
 shinyServer(function(input, output, session) {
   
   # get clicked point
