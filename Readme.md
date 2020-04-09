@@ -1,4 +1,4 @@
-###Vowel explorer
+#### Vowel explorer
 
 By [Peter Gilles](https://twitter.com/PeterGilles)
 
