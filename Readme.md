@@ -1,7 +1,5 @@
 #### Vowel explorer
 
-By [Peter Gilles](https://twitter.com/PeterGilles)
-
 This app demonstrates the possibility to play audio files directly from `ggplot2` plots in shiny.
 
 ![Image description](Screenshot.png)
