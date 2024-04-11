@@ -1,0 +1,13 @@
+name: shinyplay
+title: shinyplay
+username:
+account: petergill
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2071593
+bundleId: 2993648
+url: https://petergill.shinyapps.io/shinyplay/
+when: 1586462254.56436
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: LICENSE|Screenshot.png

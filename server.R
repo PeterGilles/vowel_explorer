@@ -3,7 +3,7 @@ library(ggplot2)
 library(ggiraph)
 
 data <- readRDS("data.rds")
-                       
+
 shinyServer(function(input, output, session) {
   
   # get clicked point
@@ -60,10 +60,11 @@ shinyServer(function(input, output, session) {
   })
   # render data table
   # searchable by onclick
-    output$dt <- DT::renderDataTable({
-     data %>% 
-        # select columns to apply function, here more complicated for round due to %>%
-        mutate_at(c("T1", "T2", "T3", "times_rel"), funs(round(., digits = 2))) %>%
-        select(word, labels, next_label, T1, T2, T3, times_rel)
-    })
+  output$dt <- DT::renderDataTable({
+    data %>% 
+      # select columns to apply function, here more complicated for round due to %>%
+      mutate_at(c("T1", "T2", "T3", "times_rel"), funs(round(., digits = 2))) %>%
+      select(word, labels, next_label, T1, T2, T3, times_rel)
+  })
+  
 })
